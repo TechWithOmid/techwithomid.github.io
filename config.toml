@@ -1,9 +1,9 @@
 baseURL = "https://techwithomid.ir/"
-languageCode = "en-us"
+languageCode = "fa"
 DefaultContentLanguage = "en"
 
 
-title = "TechwithOmid"
+title = "تک ویت امید"
 author = "Omid"
 theme = "paper"
 
@@ -11,10 +11,10 @@ theme = "paper"
   color = "linen"
 
   github = "techwithomid"
-  instagram = "omid._.mamadi"
+  instagram = "techwithomidjq"
 
-  name = "Omid"
-  bio = "A programmer handwrites"
+#  name = "امید"
+#  bio = "دست نوشته های یک برنامه نویس"
 
 [markup]
   [markup.goldmark]
@@ -25,12 +25,12 @@ theme = "paper"
 
   [[menu.main]]
     identifier = "about"
-    name = "About"
+    name = "درباره‌من"
     url = "/about/"
     weight = 10
   [[menu.main]]
     identifier = "contact"
-    name = "Contact"
+    name = "تماس با من"
     url = "/contact/"
     weight = 10
 
