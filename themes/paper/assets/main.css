@@ -804,6 +804,7 @@ body {
   font-size: inherit;
   font-family: inherit;
   line-height: inherit;
+  direction: ltr;
 }
 
 .prose :where(pre code):not(:where([class~="not-prose"] *))::before {
