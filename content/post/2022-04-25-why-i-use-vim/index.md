@@ -5,9 +5,12 @@ type: post
 date: 2022-04-25T12:12:16+00:00
 url: /why-i-use-vim/
 categories:
+tags:
   - لینوکس
-  - ویم/vim
-
+  - ویم
+categories:
+  - لینوکس
+  - ویم
 ---
 <figure class="wp-block-image"><img decoding="async" src="https://files.virgool.io/upload/users/198151/posts/dwsmvdwe8ava/fohstvldnkov.png" alt="چرا از vim استفاده می‌کنم؟" /><figcaption class="wp-element-caption">کانفیگ vim من</figcaption></figure> 
 
