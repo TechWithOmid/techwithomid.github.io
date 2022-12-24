@@ -9,9 +9,5 @@
     one: 'یک دقیقه'
     other: 'دقیقه {{ .Count }}'
 
-- id: toc
-  translation: 'فهرست محتوا'
-
-
 - id: home
   translation: 'صفحه اصلی'
