@@ -1,11 +1,16 @@
 baseURL = "https://techwithomid.ir/"
 languageCode = "fa"
-DefaultContentLanguage = "en"
+DefaultContentLanguage = "fa"
 
 
 title = "تک ویت امید"
 author = "Omid"
 theme = "paper"
+paginate = 10
+ignoreErrors = ["error-remote-getjson"]
+
+[outputs]
+  home = ["HTML", "RSS"]
 
 [params]
   color = "linen"
