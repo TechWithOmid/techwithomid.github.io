@@ -1229,6 +1229,10 @@ body {
   margin-left: 0.25rem;
 }
 
+.ml-3 {
+  margin-left: 1rem;
+}
+
 .mr-auto {
   margin-right: auto;
 }
