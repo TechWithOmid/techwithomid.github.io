@@ -13,7 +13,6 @@ see the [hugo docs](https://gohugo.io/installation/windows/) for windows install
 ```bash
 hugo run -D
 ```
-<br/>
 ### TODO
 - [ ] Add Vazir font
 - [ ] Add search functionality
