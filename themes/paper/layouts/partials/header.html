@@ -1,6 +1,6 @@
 <header class="mx-auto flex h-[5rem] max-w-3xl px-8 lg:justify-center" dir="ltr">
   <div
-    class="nav-wrapper fixed mr-auto inset-x-0 top-full z-40 flex h-full select-none flex-col justify-center pb-16 duration-200 dark:bg-black lg:static lg:h-auto lg:flex-row lg:!bg-transparent lg:pb-0 lg:transition-none"
+    class="nav-wrapper fixed inset-x-0 top-full z-40 flex h-full select-none flex-col justify-center pb-16 duration-200 dark:bg-black lg:static lg:h-auto lg:flex-row lg:!bg-transparent lg:pb-0 lg:transition-none"
   >
 
   {{ with $.Scratch.Get "social_list" }}
@@ -21,7 +21,7 @@
   
     {{ $url := .RelPermalink }}<!---->
     {{ with site.Menus.main }}
-    <nav class="ml-3 lg:flex lg:flex-row lg:items-center lg:space-x-6">
+    <nav class="ml-6 lg:flex lg:flex-row lg:items-center lg:space-x-6">
       {{ range . }}
       <a
         class="block text-center text-2xl leading-[5rem] lg:text-base lg:font-normal"
@@ -33,8 +33,11 @@
     {{ end }}<!---->
   </div>
 
+  <a
+  class="btn-menu relative z-50 -mr-8 flex h-[5rem] w-[5rem] shrink-0 cursor-pointer flex-col items-center justify-center gap-2.5 lg:hidden"
+  ></a>
 
-<div class="relative z-50 mr-auto flex items-center">
+<div class="relative z-50 ml-auto flex items-center">
   <a
     class="btn-dark ml-6 h-6 w-6 shrink-0 cursor-pointer {{ if site.Params.monoDarkIcon }}[background:url(./theme.svg)_left_center/cover_no-repeat] dark:invert{{ else }}[background:url(./theme.png)_left_center/_auto_theme('spacing.6')_no-repeat] [transition:_background-position_0.4s_steps(5)]{{ end }} dark:[background-position:right]"
   ></a>
@@ -44,11 +47,6 @@
     >{{ site.Title }}</a
   >
 </div>
-
-
-<a
-class="btn-menu relative z-50 -mr-8 flex h-[5rem] w-[5rem] shrink-0 cursor-pointer flex-col items-center justify-center gap-2.5 lg:hidden"
-></a>
 
 {{ $bg_color := $.Scratch.Get "bg_color" }}
 <script>
