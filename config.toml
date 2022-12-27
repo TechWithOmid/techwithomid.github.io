@@ -5,7 +5,7 @@ DefaultContentLanguage = "fa"
 
 title = "تک ویت امید"
 author = "Omid"
-theme = "paper"
+theme = "paper-rtl"
 paginate = 10
 ignoreErrors = ["error-remote-getjson"]
 

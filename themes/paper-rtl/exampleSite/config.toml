@@ -11,18 +11,18 @@ enableInlineShortcodes = true
 ignoreErrors = ["error-remote-getjson"]
 
 # ------------------------------
-theme = "hugo-paper"
+theme = "hugo-paper-rtl"
 title = "Paper"
 
 [params]
   color = 'linen'
 
-  twitter = 'nanxiaobei'
-  github = 'nanxiaobei'
-  instagram = 'nan.xiaobei'
+  twitter = 'techwithomid'
+  github = 'techwithomid'
+  instagram = 'techwithomid'
 
-  avatar = 'nanxiaobei@gmail.com'
-  name = 'Lee'
+  avatar = 'omidmmadi@gmail.com'
+  name = 'Omid'
   bio = 'Discover fresh context'
 
 # ------------------------------
