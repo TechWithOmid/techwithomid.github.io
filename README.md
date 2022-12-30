@@ -14,6 +14,5 @@ see the [hugo docs](https://gohugo.io/installation/windows/) for windows install
 hugo run -D
 ```
 ### TODO
-- [ ] Add Vazir font
 - [ ] Add search functionality
 - [ ] Add comment system
