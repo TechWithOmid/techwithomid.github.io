@@ -1,4 +1,4 @@
-baseURL = "https://techwithomid.ir/"
+baseURL = "localhost:1313"
 languageCode = "fa"
 DefaultContentLanguage = "fa"
 
@@ -14,6 +14,10 @@ ignoreErrors = ["error-remote-getjson"]
 
 [params]
   color = "linen"
+    
+  avatar = 'omidmmadi@gmail.com'
+  name = "امید"
+  bio = "دست نوشته های یک برنامه نویس"
 
   github = "techwithomid"
   instagram = "techwithomidjq"
