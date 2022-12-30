@@ -1,79 +1,77 @@
+# Paper-RTL
+<div dir="rtl">
 <div align="center">
-<h1>Paper <sup><sup><sub>6.4</sub></sup></sup></h1>
-
-Demo → [hugo-paper.vercel.app](https://hugo-paper.vercel.app/)
-
-<hr />
-
-A simple, clean, flexible Hugo theme.
-
-⚡️ Fast | 📸 Fluent | 🫙 Smooth
-
+    <small>
+    <p>
+    یک قالب ساده، سریع و انعطاف پذیز برای Hugo
+    </p>
+    </small>
+    <small>
+    <p>
+        <a href="https://techwithomid.github.io/paper-rtl-demo">مشاهده دمو</a>
+    </p>
+    </small>
 </div>
+<br/>
+<br/>
+فورک راستچین و مناسب زبان فارسی قالب <a href="https://github.com/nanxiaobei/hugo-paper">Paper</a>
 
----
+## پیش نمایش
+![paper-rtl light](images/screenshot-light.png)
+![paper-rtl dark](images/screenshot-dark.png)
+![paper-rtl mobile](images/mobile.png)
 
-## Links
 
-Product Hunt: [producthunt.com/posts/hugo-paper-6](https://www.producthunt.com/posts/hugo-paper-6)
-
-Hugo themes: [themes.gohugo.io/hugo-paper](https://themes.gohugo.io/hugo-paper/)
-
-## Overview
-
-![](https://raw.githubusercontent.com/nanxiaobei/hugo-paper/main/images/screenshot.png)
-![](https://raw.githubusercontent.com/nanxiaobei/hugo-paper/main/images/screenshot_dark.png)
-![](https://raw.githubusercontent.com/nanxiaobei/hugo-paper/main/images/screenshot_mobile.png)
-
-## Install
-
-Inside the folder of your Hugo project, run:
+## نصب
+داخل پروژه‌ی Hugo خود دستور زیر را اجرا کنید:
 
 ```bash
-git submodule add https://github.com/nanxiaobei/hugo-paper themes/paper
+git submodule add https://github.com/techwithomid/hugo-paper-rtl themes/paper-rtl
 ```
-
-Open `config.toml`, change `theme` to `"paper"`:
-
-```toml
-theme = "paper"
+سپس فایل ‍‍`config.toml` را اجرا کنید و مقدار `theme` را به `paper-rtl` تغییر دهید:
+```bash
+theme = "paper-rtl"
 ```
+برای اطلاعات بیشتر به <a href="https://gohugo.io/getting-started/quick-start/#step-3-add-a-theme">مستندات Hugo</a> مراجعه کنید.
+## گزینه ها
+پیشنهاد می‌شود که از فایل `config.toml` بخش `exampleSite` استفاده کنید و مقادیر را به دلخواه تغییر دهید.
 
-For more information, please read the [official guide](https://gohugo.io/getting-started/quick-start/#step-3-add-a-theme) of Hugo.
-
-## Options
-
-Available options to `config.toml`:
+گزینه های قابل ارائه در `config.toml`:
+</div>
 
 ```toml
 disqusShortname = 'YOUR_DISQUS_SHORTNAME'   # add disqus comments
 
 [params]
   # color style
-  color = 'linen'                 # linen, wheat, gray, light
+  color = 'linen'                   # linen, wheat, gray, light
 
   # header social icons
-  twitter = 'YOUR_TWITTER_ID'     # twitter.com/YOUR_TWITTER_ID
-  github = 'YOUR_GITHUB_ID'       # github.com/YOUR_GITHUB_ID
-  instagram = 'YOUR_INSTAGRAM_ID' # instagram.com/YOUR_INSTAGRAM_ID
-  rss = true                      # show rss icon with link
+  twitter = 'YOUR_TWITTER_ID'       # twitter.com/YOUR_TWITTER_ID
+  github = 'YOUR_GITHUB_ID'         # github.com/YOUR_GITHUB_ID
+  instagram = 'YOUR_INSTAGRAM_ID'   # instagram.com/YOUR_INSTAGRAM_ID
+  mastodon = 'YOUR_MASTODON_LINK'   # e.g. 'https://mastodon.instance/@xxx'
+  rss = true                        # show rss icon
 
   # home page profile
-  avatar = 'GRAVATAR_EMAIL'       # Gravatar email or image url(e.g. "https://deno.land/logo.svg")
+  avatar = 'GRAVATAR_EMAIL'         # Gravatar email or image url
   name = 'YOUR_NAME'
   bio = 'YOUR_BIO'
 
   # misc
-  disableHLJS = true              # disable requesting highlight.js
-  monoDarkIcon = true             # show monochrome dark mode icon
+  disableHLJS = true                # disable requesting highlight.js
+  monoDarkIcon = true               # show monochrome dark mode icon
+  gravatarCdn = 'GRAVATAR_CDN_LINK' # e.g. 'https://cdn.v2ex.com/gravatar/'
 ```
+<div dir="rtl">
 
-## License
+## مشارکت
+برای مشارکت در توسعه این قالب اولویت با لیست کارهاست اما می‌توانید قابلیت مورد نیاز خود را اضافه کنید و contribute کنید.
 
-[MIT License](https://github.com/nanxiaobei/hugo-paper/blob/main/LICENSE) (c) [nanxiaobei](https://lee.so/)
+## لیست کارها
+- اضافه کردن فونت وزیر
+- اضافه کردن README انگلیسی
+- منتشر کردن قالب در hugo theme
+- اضافه کردن دکمه رفتن به بالای صفحه
 
-## FUTAKE
-
-Try [**FUTAKE**](https://sotake.com/f) in WeChat. A mini app for your inspiration moments. 🌈
-
-![](https://s3.bmp.ovh/imgs/2022/07/21/452dd47aeb790abd.png)
+</div>

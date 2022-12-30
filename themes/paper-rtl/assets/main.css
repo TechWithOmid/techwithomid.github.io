@@ -1,10 +1,9 @@
 /*
- * Paper rtl
- * A simple, clean, flexible Hugo theme
- * https://github.com/techwithomid/hugo-paper-rtl
- * Designed by omid (https://techwithomid.ir/)
- */
-
+* Paper-Rtl
+* A simple, clean, flexible Hugo theme
+* https://github.com/Techwithomid/hugo-paper-rtl
+* Designed by Omid (https://techwithomid.ir/)
+*/
 
 /*
  ! tailwindcss v3.2.4 | MIT License | https://tailwindcss.com
@@ -1195,6 +1194,10 @@ body {
   margin-left: auto;
 }
 
+.ml-5 {
+  margin-left: 1.25rem;
+}
+
 .mt-12 {
   margin-top: 3rem;
 }
@@ -1763,4 +1766,8 @@ article blockquote {
 .wp-block-code{
   direction: ltr;
   font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+pre {
+  direction: ltr;
 }

@@ -1,25 +1,9 @@
 +++
-title = "About"
-description = "Hugo, the world's fastest framework for building websites"
-date = "2019-02-28"
-aliases = ["about-us", "about-hugo", "contact"]
-author = "lee.so"
+title = "درباره من"
 +++
 
-Written in Go, Hugo is an open source static site generator available under the [Apache Licence 2.0.](https://github.com/gohugoio/hugo/blob/master/LICENSE) Hugo supports TOML, YAML and JSON data file types, Markdown and HTML content files and uses shortcodes to add rich content. Other notable features are taxonomies, multilingual mode, image processing, custom output formats, HTML/CSS/JS minification and support for Sass SCSS workflows.
+هیوگو یکی از پرطرفدارترین استاتیک جنریتورهای دنیاست و در مقام استفاده بعد از jekyll بیشترین کاربر را در دنیا دارد. این پروژه توسط استیو فرانشا به زبان برنامه‌نویسی گو ساخته شد و همچنان در حال توسعه است.
 
-Hugo makes use of a variety of open source projects including:
+هیوگو به زبان برنامه نویسی گو نوشته شده است و البته توسعه مداومی دارد و مشارکت کننده های بسیاری در توسعه ی آن همکاری میکنند. استفاده از این زبان باعث شده این برنامه بصپرت کراس پلتفرم قابل دسترسی و اجرا باشد. نصب هیوگو روی پلتفورم های مختلف بسیار آسان است و تقریبا برای تمام سیستم های عامل مشهور بسته های نصبی ساده ای توسط تیم توسعه آن آماده شده است. برای اجرای هیوگو یک باینری در سیستم شما برنامه ی hugo را اجرا میکند و تمام عملیات های مربوط به استفاده از سیستم، افزودن محتوا و تم و بیلد و پیاده سازی توسط دستور hugo در خط فرمان انجام می‌شود.
 
-- https://github.com/yuin/goldmark
-- https://github.com/alecthomas/chroma
-- https://github.com/muesli/smartcrop
-- https://github.com/spf13/cobra
-- https://github.com/spf13/viper
-
-Hugo is ideal for blogs, corporate websites, creative portfolios, online magazines, single page applications or even a website with thousands of pages.
-
-Hugo is for people who want to hand code their own website without worrying about setting up complicated runtimes, dependencies and databases.
-
-Websites built with Hugo are extremely fast, secure and can be deployed anywhere including, AWS, GitHub Pages, Heroku, Netlify and any other hosting provider.
-
-Learn more and contribute on [GitHub](https://github.com/gohugoio).
+وبسایت‌های ساخته شده با هیوگو با سرعت زیادی بیلد و آماده ی اجرا میشوند. تقریبا ۱ میلی ثانیه به ازای هر صفحه و البته با ویژگی لایو ریلود آن در هنگام توسعه میتوانید تغییرات را در لحظه مشاهده کنید.
