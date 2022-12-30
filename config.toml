@@ -1,4 +1,4 @@
-baseURL = "localhost:1313"
+baseURL = "https://techwithomid.github.io"
 languageCode = "fa"
 DefaultContentLanguage = "fa"
 
