@@ -20,10 +20,7 @@ ignoreErrors = ["error-remote-getjson"]
   bio = "دست نوشته های یک برنامه نویس"
 
   github = "techwithomid"
-  instagram = "techwithomidjq"
-
-#  name = "امید"
-#  bio = "دست نوشته های یک برنامه نویس"
+  instagram = "techwithomid"
 
 [markup]
   [markup.goldmark]
