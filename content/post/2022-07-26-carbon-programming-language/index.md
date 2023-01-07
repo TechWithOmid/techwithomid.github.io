@@ -3,7 +3,7 @@ title: زبان برنامه نویسی Carbon – اخبار تکنولوژی
 author: امید
 type: post
 date: 2022-07-26T17:46:06+00:00
-excerpt: 'گوگل این هفته در رویداد CppNorth زبان برنامه نویسی جدیدی به نام Carbon رو به عنوان نسخه‌ی بهبود یافته‌ی زبان C++ معرفی کرد. '
+description: 'گوگل این هفته در رویداد CppNorth زبان برنامه نویسی جدیدی به نام Carbon رو به عنوان نسخه‌ی بهبود یافته‌ی زبان C++ معرفی کرد. '
 url: /carbon-programming-language/
 featured_image: /wp-content/uploads/2022/07/carbon-lang-1.png
 categories:

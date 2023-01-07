@@ -2,6 +2,7 @@
 title: فایل gitignore برای پروژه های جنگو
 author: امید
 type: post
+desctiption: "فایل gitignore رو میشه از ملزومات هر پروژه دونست که لازمه هر پروژه‌ای داشته باشه که اطلاعات حساس رو توی گیت قرار ندیم."
 date: 2021-06-10T18:35:25+00:00
 url: /gitignore-file-for-django-projects/
 categories:

@@ -1,6 +1,7 @@
 ---
 title: چگونه اسم پروژه جنگو را تغییر دهیم؟
 author: امید
+descriptioncontent: "در این آموزش قدم به قدم توضیح دادم که چطوری اسم پروژه جنگویی رو تغییر بدید."
 type: post
 date: 2021-04-30T15:16:27+00:00
 url: /how-to-chage-django-project-name/
