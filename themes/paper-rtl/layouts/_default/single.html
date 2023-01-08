@@ -89,6 +89,7 @@
 
 
   <!-- GraphComments -->
+  {{ if not .Params.noComment }}
   {{ if and site.Params.graphcommentId (not (eq .Params.comments false)) }}
   <div class="mt-5" id="graphcomment"></div>
   <script type="text/javascript">
@@ -115,6 +116,8 @@
     })();
   </script>
   {{ end }}
+  {{ end }}
+
 </article>
 
 {{ end }}
