@@ -8,6 +8,7 @@ author = "Omid"
 theme = "paper-rtl"
 paginate = 10
 ignoreErrors = ["error-remote-getjson"]
+enableRobotsTXT = true
 
 [outputs]
   home = ["HTML", "RSS"]
@@ -21,6 +22,8 @@ ignoreErrors = ["error-remote-getjson"]
 
   github = "techwithomid"
   instagram = "techwithomid"
+
+  graphcommentId = "techwithomid"
 
 [markup]
   [markup.goldmark]
