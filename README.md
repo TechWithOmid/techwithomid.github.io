@@ -15,4 +15,3 @@ hugo run -D
 ```
 ### TODO
 - [ ] Add search functionality
-- [ ] Add comment system
