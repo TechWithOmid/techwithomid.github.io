@@ -14,6 +14,7 @@ enableRobotsTXT = true
   home = ["HTML", "RSS"]
 
 [params]
+  description = "دست نوشته های یک برنامه نویس"
   color = "linen"
     
   avatar = 'omidmmadi@gmail.com'
