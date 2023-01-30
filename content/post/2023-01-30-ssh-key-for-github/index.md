@@ -4,7 +4,7 @@ url: "ssh-key-for-github"
 date: 2023-01-30T20:45:36+03:30
 categories: ["گیتهاب"]
 tags: ["گیتهاب"]
-draft: true
+draft: false
 ---
 ## چرا باید از ssh استفاده کنیم؟
 
