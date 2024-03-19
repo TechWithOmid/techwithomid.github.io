@@ -66,3 +66,5 @@ for (x, y) in zipped:
 # ali, 5
 # mamad, 6
 ```
+
+اگر میخواید بیشتر درمورد زیپ فانکشن در پایتون یادبگیرید قطعا بهترین گزینه [داکیومنت های خود پایتونه](https://docs.python.org/3/library/functions.html#zip) و یا این آموزش از سایت [realpython](https://realpython.com/python-zip-function/) که خیلی خوب توضیح داده.
